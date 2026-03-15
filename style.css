@@ -8,7 +8,7 @@ body {
     position: relative;
 }
 
-.header {
+.postion {
     position: relative;
     top: 30px;
 }
@@ -17,7 +17,7 @@ header {
     position: relative;
 
     background: linear-gradient(135deg, #667eea, #764ba2);
-    height: 50vw;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -46,46 +46,106 @@ nav>ul {
 .color {
     position: relative;
     top: 60px;
-   
-    margin: auto; 
+
+    margin: auto;
     width: 70vw;
 
 }
 
 .head {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
-.div1{
+
+.div1 {
     display: flex;
     flex-direction: column;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
     font-size: 50px;
-    gap:6px ;
+    gap: 6px;
     padding: 50px;
-    
-    
-    background: rgba(255,255,255,0.2);
-backdrop-filter: blur(10px);
-border-radius: 20px;
+
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
-.iam img{
+
+.iam img {
     border-radius: 100px;
     object-fit: fill;
 }
 
-.some{
-    position: absolute;
-    top:px ;
+.some {
+    position: relative;
+    top: 50px;
     /* bottom: px; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
-    background-color: #667eea;
+    
     padding: 50px;
     width: 50vw;
     /* margin: auto; */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     border-radius: 20px;
     display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------middle--------------------------- */
+
+.head2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #667eea, #764ba2)
     
 }
+
+.head2> :nth-child(1)> .thats>h1{
+    display: flex;
+    background-color: aqua;
+    width: 30vw;
+    margin: auto;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 34px;
+    position: relative;
+    
+}
+
+.postion> {
+   position: relative;
+   
+   background-color: #55f090;
+    
+}
+
+.to{
+    position: relative;
+    background-color: #1b8b0c;
+    height: 90%;
+
+}
+.core{
+    position: relative;
+    width: 80vw;
+    background-color: #764ba2;
+    margin: auto;
+    top: 150px;
+}
+
+
+
